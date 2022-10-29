@@ -10,9 +10,11 @@
 
 Write in a module of your own, a function called `strictEquals(a, b)` that returns the same value as `a === b`. Your implementation cannot use the operators `===` or `!==`.
 
-Given the function `strictEquals`
-When comparing \<A\> y \<B\>
-Then the result will be \<Result\>
+Test the function from another file with this test set:
+
+- Given the function `strictEquals`
+- When comparing \<A\> y \<B\>
+- Then the result will be \<Result\>
 
 | A       | B     | RESULT |                   |
 | ------- | ----- | ------ | ----------------- |
