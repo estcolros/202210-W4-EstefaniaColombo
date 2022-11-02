@@ -19,3 +19,19 @@ const t8 = new testing('Water', 'oil');
 const tableTesting = { t1, t2, t3, t4, t5, t6, t7, t8 };
 
 console.table(tableTesting);
+
+/*
+RESULT TEST
+┌─────────┬─────────┬───────┬────────┐
+│ (index) │    A    │   B   │ RESULT │
+├─────────┼─────────┼───────┼────────┤
+│   t1    │    1    │   1   │  true  │
+│   t2    │   NaN   │  NaN  │ false  │
+│   t3    │    0    │  -0   │  true  │
+│   t4    │   -0    │   0   │  true  │
+│   t5    │    1    │  '1'  │ false  │
+│   t6    │  true   │ false │ false  │
+│   t7    │  false  │ false │  true  │
+│   t8    │ 'Water' │ 'oil' │ false  │
+└─────────┴─────────┴───────┴────────┘
+*/
